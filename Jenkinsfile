@@ -16,7 +16,7 @@ pipeline {
         }
       }
 
-         stage("Deploy npm cloud application") { 
+         stage("Deploy npm to cloud application") { 
          steps { 
            sh 'echo "deploying application..."'
          }
